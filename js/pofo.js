@@ -122,6 +122,32 @@
 
       }
 
+      $('.main-btn').on({
+        mouseenter: function(){
+          $('.sub').fadeOut(0); 
+          $(this).next().fadeIn(300); 
+        }
+      });
+
+      $('#nav').on({
+          mouseleave: function(){
+            $('.sub').fadeOut(300); 
+          }
+      });
+          
+      $('.sub-btn').on({
+          mouseenter: function(){
+            $('.sub-sub').fadeOut(0); 
+            $(this).next().fadeIn(300); 
+          }
+      });
+
+      $('.col24').on({
+          mouseleave: function(){
+            $('.sub-sub').fadeOut(300); 
+          }
+      });
+
     }
     section1(){
       let cnt=0;

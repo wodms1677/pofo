@@ -1075,34 +1075,34 @@
   width: 100%;
 }
 
-#wrap #main #section4 .container .gap .wrap #nav {
+#wrap #main #section4 .container .gap .wrap #sec4Nav {
   width: 100%;
   padding: 80px 0;
   text-align: center;
 }
 
-#wrap #main #section4 .container .gap .wrap #nav ul {
+#wrap #main #section4 .container .gap .wrap #sec4Nav ul {
   display: inline-block;
 }
 
-#wrap #main #section4 .container .gap .wrap #nav ul li {
+#wrap #main #section4 .container .gap .wrap #sec4Nav ul li {
   display: inline-block;
   margin: 0 25px;
 }
 
-#wrap #main #section4 .container .gap .wrap #nav ul li a {
+#wrap #main #section4 .container .gap .wrap #sec4Nav ul li a {
   font-family: 'Montserrat';
   font-size: 12px;
   font-weight: 600;
   color: #6f6f6f;
 }
 
-#wrap #main #section4 .container .gap .wrap #nav ul li a:hover {
+#wrap #main #section4 .container .gap .wrap #sec4Nav ul li a:hover {
   border-bottom: 1px solid #6f6f6f;
   color: #333;
 }
 
-#wrap #main #section4 .container .gap .wrap #nav ul li a.on {
+#wrap #main #section4 .container .gap .wrap #sec4Nav ul li a.on {
   border-bottom: 1px solid #6f6f6f;
   color: #333;
 }
